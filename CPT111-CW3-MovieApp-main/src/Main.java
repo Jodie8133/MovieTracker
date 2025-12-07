@@ -16,8 +16,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        MovieDatabase movieDb = new MovieDatabase("data/movies.csv");
-        UserDatabase userDb = new UserDatabase("data/users.csv");
+        MovieDatabase movieDb = new MovieDatabase("CPT111-CW3-MovieApp-main/data/movies.csv");
+        UserDatabase userDb = new UserDatabase("CPT111-CW3-MovieApp-main/data/users.csv");
         RecommendationEngine recEngine = new RecommendationEngine();
 
         User currentUser = null;
@@ -293,10 +293,13 @@ public class Main {
         System.out.print("Enter current password: ");
         String current = sc.nextLine().trim();
 
-        if (!user.getPassword().equals(current)) {
+        // 用哈希方式验证旧密码
+        String hashedCurrent = userDb.hashForExternalUse(current);
+        if (!user.getPassword().equals(hashedCurrent)) {
             System.out.println("Current password is incorrect.");
             return;
         }
+
         System.out.print("Enter new password: ");
         String newPass = sc.nextLine().trim();
 
@@ -307,15 +310,18 @@ public class Main {
             System.out.println("New passwords do not match.");
             return;
         }
+
         if (newPass.isEmpty()) {
             System.out.println("New password cannot be empty.");
             return;
         }
 
-        user.setPassword(newPass);
+        String hashedNew = userDb.hashForExternalUse(newPass);
+        user.setPassword(hashedNew);
         userDb.saveUsers();
         System.out.println("Password changed successfully.");
     }
+
     private static User handleRegister(Scanner sc, UserDatabase userDb) {
         System.out.println("\n=== Register New User ===");
 

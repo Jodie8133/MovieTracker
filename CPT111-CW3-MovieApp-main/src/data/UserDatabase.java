@@ -10,10 +10,30 @@ import java.io.IOException;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 
 public class UserDatabase {
     private HashMap<String, User> users = new HashMap<>();
     private String filePath;
+
+    private String hashPassword(String password) {
+        try {
+            MessageDigest md = MessageDigest.getInstance("SHA-256");
+            byte[] hashBytes = md.digest(password.getBytes());
+            StringBuilder sb = new StringBuilder();
+            for (byte b : hashBytes) {
+                sb.append(String.format("%02x", b)); // 转成 16 进制字符串
+            }
+            return sb.toString();
+        } catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException("Hashing algorithm SHA-256 not found");
+        }
+    }
+//判断密码是否为哈希加密过的
+    private boolean isHashedPassword(String password) {
+        return password != null && password.matches("[0-9a-f]{64}");
+    }
 
     public UserDatabase(String filePath) {
         this.filePath = filePath;
@@ -80,13 +100,29 @@ public class UserDatabase {
         }
         return list;
     }
-
+//如果没有加密过，在登录后再给他加密
     public User login(String username, String password) {
         User u = users.get(username);
+        if (u == null) return null;
 
-        if (u != null && u.getPassword().equals(password)) {
+        String stored = u.getPassword();
+
+        if (isHashedPassword(stored)) {
+            String hashedInput = hashPassword(password);
+            if (stored.equals(hashedInput)) {
+                return u;
+            } else {
+                return null;
+            }
+        }
+
+        if (stored.equals(password)) {
+            String newHashed = hashPassword(password);
+            u.setPassword(newHashed);
+            saveUsers();
             return u;
         }
+
         return null;
     }
 
@@ -115,13 +151,17 @@ public class UserDatabase {
             return null; // 用户已存在
         }
 
-        User newUser = new User(username, password, new ArrayList<>(), new ArrayList<>());
-        users.put(username, newUser);
+        String hashed = hashPassword(password);
 
+        User newUser = new User(username, hashed, new ArrayList<>(), new ArrayList<>());
+        users.put(username, newUser);
         saveUsers();
         return newUser;
     }
-    
+    public String hashForExternalUse(String password) {
+        return hashPassword(password);
+    }
+
 
     public HashMap<String, User> getUsers() {
         return users;
