@@ -1,0 +1,32 @@
+[
+    {
+        "username": "bob",
+        "password": "bob123",
+        "watchlist": ["M041", "M042", "M043", "M044"],
+        "history": ["M040", "M041", "M042"]
+    },
+    {
+        "username": "eric",
+        "password": "eric123",
+        "watchlist": ["M091", "M092", "M093", "M094"],
+        "history": ["M091", "M096", "M099"]
+    },
+    {
+        "username": "alice",
+        "password": "alice123",
+        "watchlist": ["M015", "M071", "M048", "M001"],
+        "history": ["M001", "M011", "M015", "M002", "M003", "M004", "M005", "M008", "M009", "M010", "M056"]
+    },
+    {
+        "username": "diana",
+        "password": "diana123",
+        "watchlist": ["M076", "M077", "M078"],
+        "history": ["M029", "M076", "M098"]
+    },
+    {
+        "username": "charlie",
+        "password": "charlie123",
+        "watchlist": ["M063", "M064", "M065", "M066"],
+        "history": ["M063", "M080", "M064"]
+    }
+]

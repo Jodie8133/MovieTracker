@@ -1,0 +1,702 @@
+[
+  {
+    "id": "M001",
+    "title": "The Shawshank Redemption",
+    "genre": "Drama",
+    "year": 1994,
+    "rating": 9.3
+  },
+  {
+    "id": "M002",
+    "title": "The Godfather",
+    "genre": "Crime",
+    "year": 1972,
+    "rating": 9.2
+  },
+  {
+    "id": "M003",
+    "title": "The Dark Knight",
+    "genre": "Action",
+    "year": 2008,
+    "rating": 9
+  },
+  {
+    "id": "M004",
+    "title": "Pulp Fiction",
+    "genre": "Crime",
+    "year": 1994,
+    "rating": 8.9
+  },
+  {
+    "id": "M005",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "genre": "Fantasy",
+    "year": 2001,
+    "rating": 8.8
+  },
+  {
+    "id": "M006",
+    "title": "The Lord of the Rings: The Two Towers",
+    "genre": "Fantasy",
+    "year": 2002,
+    "rating": 8.7
+  },
+  {
+    "id": "M007",
+    "title": "The Lord of the Rings: The Return of the King",
+    "genre": "Fantasy",
+    "year": 2003,
+    "rating": 8.9
+  },
+  {
+    "id": "M008",
+    "title": "Inception",
+    "genre": "Sci-Fi",
+    "year": 2010,
+    "rating": 8.8
+  },
+  {
+    "id": "M009",
+    "title": "Fight Club",
+    "genre": "Drama",
+    "year": 1999,
+    "rating": 8.8
+  },
+  {
+    "id": "M010",
+    "title": "Forrest Gump",
+    "genre": "Drama",
+    "year": 1994,
+    "rating": 8.8
+  },
+  {
+    "id": "M011",
+    "title": "The Matrix",
+    "genre": "Sci-Fi",
+    "year": 1999,
+    "rating": 8.7
+  },
+  {
+    "id": "M012",
+    "title": "Goodfellas",
+    "genre": "Crime",
+    "year": 1990,
+    "rating": 8.7
+  },
+  {
+    "id": "M013",
+    "title": "Se7en",
+    "genre": "Thriller",
+    "year": 1995,
+    "rating": 8.6
+  },
+  {
+    "id": "M014",
+    "title": "The Silence of the Lambs",
+    "genre": "Thriller",
+    "year": 1991,
+    "rating": 8.6
+  },
+  {
+    "id": "M015",
+    "title": "Interstellar",
+    "genre": "Sci-Fi",
+    "year": 2014,
+    "rating": 8.6
+  },
+  {
+    "id": "M016",
+    "title": "Parasite",
+    "genre": "Thriller",
+    "year": 2019,
+    "rating": 8.6
+  },
+  {
+    "id": "M017",
+    "title": "Spirited Away",
+    "genre": "Animation",
+    "year": 2001,
+    "rating": 8.6
+  },
+  {
+    "id": "M018",
+    "title": "City of God",
+    "genre": "Crime",
+    "year": 2002,
+    "rating": 8.6
+  },
+  {
+    "id": "M019",
+    "title": "Saving Private Ryan",
+    "genre": "War",
+    "year": 1998,
+    "rating": 8.6
+  },
+  {
+    "id": "M020",
+    "title": "The Green Mile",
+    "genre": "Drama",
+    "year": 1999,
+    "rating": 8.6
+  },
+  {
+    "id": "M021",
+    "title": "Gladiator",
+    "genre": "Action",
+    "year": 2000,
+    "rating": 8.5
+  },
+  {
+    "id": "M022",
+    "title": "Whiplash",
+    "genre": "Drama",
+    "year": 2014,
+    "rating": 8.5
+  },
+  {
+    "id": "M023",
+    "title": "The Prestige",
+    "genre": "Mystery",
+    "year": 2006,
+    "rating": 8.5
+  },
+  {
+    "id": "M024",
+    "title": "The Departed",
+    "genre": "Crime",
+    "year": 2006,
+    "rating": 8.5
+  },
+  {
+    "id": "M025",
+    "title": "The Lion King",
+    "genre": "Animation",
+    "year": 1994,
+    "rating": 8.5
+  },
+  {
+    "id": "M026",
+    "title": "The Usual Suspects",
+    "genre": "Crime",
+    "year": 1995,
+    "rating": 8.5
+  },
+  {
+    "id": "M027",
+    "title": "Back to the Future",
+    "genre": "Sci-Fi",
+    "year": 1985,
+    "rating": 8.5
+  },
+  {
+    "id": "M028",
+    "title": "The Pianist",
+    "genre": "Drama",
+    "year": 2002,
+    "rating": 8.5
+  },
+  {
+    "id": "M029",
+    "title": "Alien",
+    "genre": "Horror",
+    "year": 1979,
+    "rating": 8.4
+  },
+  {
+    "id": "M030",
+    "title": "Aliens",
+    "genre": "Action",
+    "year": 1986,
+    "rating": 8.3
+  },
+  {
+    "id": "M031",
+    "title": "Terminator 2: Judgment Day",
+    "genre": "Action",
+    "year": 1991,
+    "rating": 8.6
+  },
+  {
+    "id": "M032",
+    "title": "The Terminator",
+    "genre": "Sci-Fi",
+    "year": 1984,
+    "rating": 8.1
+  },
+  {
+    "id": "M033",
+    "title": "Blade Runner",
+    "genre": "Sci-Fi",
+    "year": 1982,
+    "rating": 8.1
+  },
+  {
+    "id": "M034",
+    "title": "Blade Runner 2049",
+    "genre": "Sci-Fi",
+    "year": 2017,
+    "rating": 8
+  },
+  {
+    "id": "M035",
+    "title": "The Social Network",
+    "genre": "Drama",
+    "year": 2010,
+    "rating": 7.8
+  },
+  {
+    "id": "M036",
+    "title": "Joker",
+    "genre": "Drama",
+    "year": 2019,
+    "rating": 8.4
+  },
+  {
+    "id": "M037",
+    "title": "Mad Max: Fury Road",
+    "genre": "Action",
+    "year": 2015,
+    "rating": 8.1
+  },
+  {
+    "id": "M038",
+    "title": "The Dark Knight Rises",
+    "genre": "Action",
+    "year": 2012,
+    "rating": 8.4
+  },
+  {
+    "id": "M039",
+    "title": "Batman Begins",
+    "genre": "Action",
+    "year": 2005,
+    "rating": 8.2
+  },
+  {
+    "id": "M040",
+    "title": "The Avengers",
+    "genre": "Action",
+    "year": 2012,
+    "rating": 8
+  },
+  {
+    "id": "M041",
+    "title": "Avengers: Infinity War",
+    "genre": "Action",
+    "year": 2018,
+    "rating": 8.4
+  },
+  {
+    "id": "M042",
+    "title": "Avengers: Endgame",
+    "genre": "Action",
+    "year": 2019,
+    "rating": 8.4
+  },
+  {
+    "id": "M043",
+    "title": "Guardians of the Galaxy",
+    "genre": "Action",
+    "year": 2014,
+    "rating": 8
+  },
+  {
+    "id": "M044",
+    "title": "Iron Man",
+    "genre": "Action",
+    "year": 2008,
+    "rating": 7.9
+  },
+  {
+    "id": "M045",
+    "title": "Captain America: The Winter Soldier",
+    "genre": "Action",
+    "year": 2014,
+    "rating": 7.8
+  },
+  {
+    "id": "M046",
+    "title": "Black Panther",
+    "genre": "Action",
+    "year": 2018,
+    "rating": 7.3
+  },
+  {
+    "id": "M047",
+    "title": "Doctor Strange",
+    "genre": "Action",
+    "year": 2016,
+    "rating": 7.5
+  },
+  {
+    "id": "M048",
+    "title": "Spider-Man: Into the Spider-Verse",
+    "genre": "Animation",
+    "year": 2018,
+    "rating": 8.4
+  },
+  {
+    "id": "M049",
+    "title": "The Incredibles",
+    "genre": "Animation",
+    "year": 2004,
+    "rating": 8
+  },
+  {
+    "id": "M050",
+    "title": "Toy Story",
+    "genre": "Animation",
+    "year": 1995,
+    "rating": 8.3
+  },
+  {
+    "id": "M051",
+    "title": "Toy Story 3",
+    "genre": "Animation",
+    "year": 2010,
+    "rating": 8.3
+  },
+  {
+    "id": "M052",
+    "title": "Finding Nemo",
+    "genre": "Animation",
+    "year": 2003,
+    "rating": 8.2
+  },
+  {
+    "id": "M053",
+    "title": "WALL-E",
+    "genre": "Animation",
+    "year": 2008,
+    "rating": 8.4
+  },
+  {
+    "id": "M054",
+    "title": "Up",
+    "genre": "Animation",
+    "year": 2009,
+    "rating": 8.2
+  },
+  {
+    "id": "M055",
+    "title": "Ratatouille",
+    "genre": "Animation",
+    "year": 2007,
+    "rating": 8.1
+  },
+  {
+    "id": "M056",
+    "title": "Coco",
+    "genre": "Animation",
+    "year": 2017,
+    "rating": 8.3
+  },
+  {
+    "id": "M057",
+    "title": "Inside Out",
+    "genre": "Animation",
+    "year": 2015,
+    "rating": 8.1
+  },
+  {
+    "id": "M058",
+    "title": "Monsters Inc",
+    "genre": "Animation",
+    "year": 2001,
+    "rating": 8.1
+  },
+  {
+    "id": "M059",
+    "title": "The Godfather Part II",
+    "genre": "Crime",
+    "year": 1974,
+    "rating": 9
+  },
+  {
+    "id": "M060",
+    "title": "The Godfather Part III",
+    "genre": "Crime",
+    "year": 1990,
+    "rating": 7.6
+  },
+  {
+    "id": "M061",
+    "title": "Schindler's List",
+    "genre": "Drama",
+    "year": 1993,
+    "rating": 9
+  },
+  {
+    "id": "M062",
+    "title": "American Beauty",
+    "genre": "Drama",
+    "year": 1999,
+    "rating": 8.3
+  },
+  {
+    "id": "M063",
+    "title": "The Big Lebowski",
+    "genre": "Comedy",
+    "year": 1998,
+    "rating": 8.1
+  },
+  {
+    "id": "M064",
+    "title": "The Grand Budapest Hotel",
+    "genre": "Comedy",
+    "year": 2014,
+    "rating": 8.1
+  },
+  {
+    "id": "M065",
+    "title": "Amelie",
+    "genre": "Romance",
+    "year": 2001,
+    "rating": 8.3
+  },
+  {
+    "id": "M066",
+    "title": "La La Land",
+    "genre": "Musical",
+    "year": 2016,
+    "rating": 8
+  },
+  {
+    "id": "M067",
+    "title": "The Sound of Music",
+    "genre": "Musical",
+    "year": 1965,
+    "rating": 8
+  },
+  {
+    "id": "M068",
+    "title": "The Wizard of Oz",
+    "genre": "Fantasy",
+    "year": 1939,
+    "rating": 8.1
+  },
+  {
+    "id": "M069",
+    "title": "Casablanca",
+    "genre": "Romance",
+    "year": 1942,
+    "rating": 8.5
+  },
+  {
+    "id": "M070",
+    "title": "Citizen Kane",
+    "genre": "Drama",
+    "year": 1941,
+    "rating": 8.3
+  },
+  {
+    "id": "M071",
+    "title": "2001 A Space Odyssey",
+    "genre": "Sci-Fi",
+    "year": 1968,
+    "rating": 8.3
+  },
+  {
+    "id": "M072",
+    "title": "Apocalypse Now",
+    "genre": "War",
+    "year": 1979,
+    "rating": 8.4
+  },
+  {
+    "id": "M073",
+    "title": "Taxi Driver",
+    "genre": "Drama",
+    "year": 1976,
+    "rating": 8.2
+  },
+  {
+    "id": "M074",
+    "title": "Raging Bull",
+    "genre": "Sport",
+    "year": 1980,
+    "rating": 8.1
+  },
+  {
+    "id": "M075",
+    "title": "Rocky",
+    "genre": "Sport",
+    "year": 1976,
+    "rating": 8.1
+  },
+  {
+    "id": "M076",
+    "title": "The Shining",
+    "genre": "Horror",
+    "year": 1980,
+    "rating": 8.4
+  },
+  {
+    "id": "M077",
+    "title": "Psycho",
+    "genre": "Horror",
+    "year": 1960,
+    "rating": 8.5
+  },
+  {
+    "id": "M078",
+    "title": "Get Out",
+    "genre": "Horror",
+    "year": 2017,
+    "rating": 7.7
+  },
+  {
+    "id": "M079",
+    "title": "Her",
+    "genre": "Romance",
+    "year": 2013,
+    "rating": 8
+  },
+  {
+    "id": "M080",
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "genre": "Romance",
+    "year": 2004,
+    "rating": 8.3
+  },
+  {
+    "id": "M081",
+    "title": "The Truman Show",
+    "genre": "Drama",
+    "year": 1998,
+    "rating": 8.2
+  },
+  {
+    "id": "M082",
+    "title": "Memento",
+    "genre": "Mystery",
+    "year": 2000,
+    "rating": 8.4
+  },
+  {
+    "id": "M083",
+    "title": "Oldboy",
+    "genre": "Thriller",
+    "year": 2003,
+    "rating": 8.4
+  },
+  {
+    "id": "M084",
+    "title": "Pan's Labyrinth",
+    "genre": "Fantasy",
+    "year": 2006,
+    "rating": 8.2
+  },
+  {
+    "id": "M085",
+    "title": "The Lives of Others",
+    "genre": "Drama",
+    "year": 2006,
+    "rating": 8.4
+  },
+  {
+    "id": "M086",
+    "title": "The Hunt",
+    "genre": "Drama",
+    "year": 2012,
+    "rating": 8.3
+  },
+  {
+    "id": "M087",
+    "title": "Prisoners",
+    "genre": "Thriller",
+    "year": 2013,
+    "rating": 8.1
+  },
+  {
+    "id": "M088",
+    "title": "The Wolf of Wall Street",
+    "genre": "Crime",
+    "year": 2013,
+    "rating": 8.2
+  },
+  {
+    "id": "M089",
+    "title": "There Will Be Blood",
+    "genre": "Drama",
+    "year": 2007,
+    "rating": 8.2
+  },
+  {
+    "id": "M090",
+    "title": "No Country for Old Men",
+    "genre": "Crime",
+    "year": 2007,
+    "rating": 8.2
+  },
+  {
+    "id": "M091",
+    "title": "A Beautiful Mind",
+    "genre": "Drama",
+    "year": 2001,
+    "rating": 8.2
+  },
+  {
+    "id": "M092",
+    "title": "The Imitation Game",
+    "genre": "Biography",
+    "year": 2014,
+    "rating": 7.7
+  },
+  {
+    "id": "M093",
+    "title": "The King's Speech",
+    "genre": "Drama",
+    "year": 2010,
+    "rating": 8
+  },
+  {
+    "id": "M094",
+    "title": "The Theory of Everything",
+    "genre": "Biography",
+    "year": 2014,
+    "rating": 7.7
+  },
+  {
+    "id": "M095",
+    "title": "Dallas Buyers Club",
+    "genre": "Drama",
+    "year": 2013,
+    "rating": 8
+  },
+  {
+    "id": "M096",
+    "title": "Slumdog Millionaire",
+    "genre": "Drama",
+    "year": 2008,
+    "rating": 8
+  },
+  {
+    "id": "M097",
+    "title": "Million Dollar Baby",
+    "genre": "Drama",
+    "year": 2004,
+    "rating": 8.1
+  },
+  {
+    "id": "M098",
+    "title": "The Sixth Sense",
+    "genre": "Thriller",
+    "year": 1999,
+    "rating": 8.1
+  },
+  {
+    "id": "M099",
+    "title": "The Intouchables",
+    "genre": "Drama",
+    "year": 2011,
+    "rating": 8.5
+  },
+  {
+    "id": "M100",
+    "title": "The Breakfast Club",
+    "genre": "Comedy",
+    "year": 1985,
+    "rating": 7.8
+  }
+]
