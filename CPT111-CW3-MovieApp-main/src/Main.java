@@ -27,7 +27,8 @@ public class Main {
             if (currentUser == null) {
                 System.out.println("\n=== Movie Recommendation & Tracker ===");
                 System.out.println("1. Login");
-                System.out.println("2. Exit");
+                System.out.println("2. Register");
+                System.out.println("3. Exit");
                 System.out.print("Choose an option: ");
 
                 int choice = readInt(sc);
@@ -37,6 +38,9 @@ public class Main {
                         currentUser = handleLogin(sc, userDb);
                         break;
                     case 2:
+                        currentUser = handleRegister(sc, userDb);
+                        break;
+                    case 3:
                         running = false;
                         System.out.println("Goodbye!");
                         break;
@@ -311,5 +315,29 @@ public class Main {
         user.setPassword(newPass);
         userDb.saveUsers();
         System.out.println("Password changed successfully.");
+    }
+    private static User handleRegister(Scanner sc, UserDatabase userDb) {
+        System.out.println("\n=== Register New User ===");
+
+        System.out.print("Choose a username: ");
+        String username = sc.nextLine().trim();
+
+        System.out.print("Choose a password: ");
+        String password = sc.nextLine().trim();
+
+        if (username.isEmpty() || password.isEmpty()) {
+            System.out.println("Username or password cannot be empty!");
+            return null;
+        }
+
+        User newUser = userDb.register(username, password);
+
+        if (newUser == null) {
+            System.out.println("Username already exists. Please choose another.");
+            return null;
+        }
+
+        System.out.println("Registration successful! You can now log in.");
+        return newUser;
     }
 }

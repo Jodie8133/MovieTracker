@@ -110,15 +110,18 @@ public class UserDatabase {
     }
 
     // (Advanced feature idea: createUser(), changePassword(), etc.)
-    public boolean createUser(String username, String password) {
-        if (users.containsKey(username)) return false;
+    public User register(String username, String password) {
+        if (users.containsKey(username)) {
+            return null; // 用户已存在
+        }
 
-        User u = new User(username, password, new ArrayList<>(), new ArrayList<>());
+        User newUser = new User(username, password, new ArrayList<>(), new ArrayList<>());
+        users.put(username, newUser);
 
-        users.put(username, u);
         saveUsers();
-        return true;
+        return newUser;
     }
+    
 
     public HashMap<String, User> getUsers() {
         return users;
